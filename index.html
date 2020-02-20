@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CashUp</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+<body>
+<span class="drag"></span>
+<div class="wrapper">
+    <h1>CashUp</h1>
+    <div id="makemoney">
+        <h3>You've Earned<br/>$<span id="count"></span></h3>
+    </div>
+    <div id="cashinfo">
+        <p>You make:</p>
+        <p>$<span id="hourlyrate"></span>/hour</p>
+        <p>$<span id="cashpersecond"></span>/second</p>
+    </div>
+</div>
+
+<link rel="stylesheet" href="css/style.css">
+<script src="js/ui.js"></script>
+</body>
+</html>
