@@ -1,0 +1,22 @@
+{
+  "name": "cashup",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDKeller/cashup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GDKeller/cashup/issues"
+  },
+  "homepage": "https://github.com/GDKeller/cashup#readme",
+  "devDependencies": {
+    "electron": "^8.0.1"
+  }
+}
