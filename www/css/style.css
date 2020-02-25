@@ -35,4 +35,11 @@ body {
   margin-bottom: 10px;
 }
 
+#makemoney .red {
+  color: red;
+}
+#makemoney #dollarSign, #makemoney #count {
+  font-size: 5em;
+}
+
 /*# sourceMappingURL=style.css.map */

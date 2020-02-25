@@ -40,14 +40,36 @@
         <div class="app">
             <h1>CashUp</h1>
             <div id="makemoney">
-                <h3>You've Earned<br/>$<span id="count"></span></h3>
+                <h3>You've Earned<br/><span id="dollarSign">$</span><span id="count"></span><span id="lastThree"></span></h3>
             </div>
             <div id="cashinfo">
                 <p>You make:</p>
-                <p>$<span id="hourlyrate"></span>/hour</p>
-                <p>$<span id="cashpersecond"></span>/second</p>
+                <p>$<span id="hourRate"></span>/hour</p>
+                <p>$<span id="minRate"></span>/minute</p>
+                <p>$<span id="secRate"></span>/second</p>
             </div>
+
+
+            <fieldset>
+                <legend>Stop Watch</legend>
+                <a href="#" id="start">Start</a>&nbsp;
+
+                <a href="#" id="stop">Stop</a>&nbsp;
+
+                <a href="#" id="reset">Reset</a>&nbsp;
+
+                <span id="s_minutes">00</span>:
+                <span id="s_seconds">00</span>:
+                <span id="s_ms">000</span>
+            </fieldset>
+
+
+
         </div>
+
+
+
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/ui.js"></script>
